@@ -13,5 +13,90 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Chapter1">
+      <UniqueIdentifier>{fe0480ef-468e-4bed-b94e-267adbd2be16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter1">
+      <UniqueIdentifier>{68a50031-3ee8-457b-a1f1-ccd792144a89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HelloWorld.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleAdder.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="BetweenAdder.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="StringIO.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="pro01-1-1.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="pro01-1-2.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="pro01-1-3.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="pro01-1-4.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionOverloading.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="pro01-2.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultValue1.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="DefalutValue2.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultValue3.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="pro01-3-1.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineFunc.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSp1.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSp2.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSp3.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="pro01-4Func.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="pro01-4Main.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="UsingDcl1.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="UsingDcl2.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="UsingDcl3.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="NameAlias.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pro01-4Func.h">
+      <Filter>헤더 파일\Chapter1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
