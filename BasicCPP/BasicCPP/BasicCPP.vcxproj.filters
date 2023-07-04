@@ -19,6 +19,9 @@
     <Filter Include="헤더 파일\Chapter1">
       <UniqueIdentifier>{68a50031-3ee8-457b-a1f1-ccd792144a89}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter2">
+      <UniqueIdentifier>{a55a840f-e84e-4b97-b6e6-0b7a43e6e2d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -92,6 +95,21 @@
     </ClCompile>
     <ClCompile Include="NameAlias.cpp">
       <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueAndFalse.cpp">
+      <Filter>소스 파일\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTypeBool.cpp">
+      <Filter>소스 파일\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Referen.cpp">
+      <Filter>소스 파일\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="RefArrElem.cpp">
+      <Filter>소스 파일\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="RefPtr.cpp">
+      <Filter>소스 파일\Chapter2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
