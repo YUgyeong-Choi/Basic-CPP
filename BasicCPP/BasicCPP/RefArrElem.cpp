@@ -1,6 +1,7 @@
 //참조자는 변수에 대해서만 선언 가능 int &ref=20; X
 //미리 참조자 선언 및 참조의 대상 바꾸기 불가능 int &ref; X
 //NULL 초기화 불가능 int &ref=NULL; X
+//const 참조자를 이용하면 상수도 참조가 가능하다, 임시변수 생성
 #include <iostream>
 using namespace std;
 
