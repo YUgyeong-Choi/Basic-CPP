@@ -12,8 +12,8 @@
 
 ### 공부 기간
 2023/07/03 ~ 2023/07/31  
-Chapter 1 : 3일  
-Chapter 2 : 4일  
+Chapter 1 : 3일 ✅
+Chapter 2 : 4일 -> 5일 추가로 ✅ 
 Chapter 3 : 5,6일  
 Chapter 4 : 7,8일  
 Chapter 5 : 9,10일  
