@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Chapter3">
       <UniqueIdentifier>{bd22834a-8180-4b98-972e-2ad691d6399c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\Chapter3">
+      <UniqueIdentifier>{0d08860a-b498-48ff-beb6-c1fb4a62a506}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -171,10 +174,43 @@
     <ClCompile Include="RacingCarEnum.cpp">
       <Filter>소스 파일\Chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="RacingCarOuterFunc.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingCarClassBase.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingMain.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="CarInline.h">
+      <Filter>헤더 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="CarInline.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingInlineMain.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="pro03-2-1.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="pro03-2-2.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitSaleSim1.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pro01-4Func.h">
       <Filter>헤더 파일\Chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>헤더 파일\Chapter3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

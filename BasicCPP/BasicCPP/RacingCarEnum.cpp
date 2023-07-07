@@ -1,3 +1,4 @@
+//enum안의 글들도 구조체 안에 포함시키는 것이 좋은데 부담스러우니 namespace를 이용해서 해당 파일 같이 사용
 #include <iostream>
 using namespace std;
 

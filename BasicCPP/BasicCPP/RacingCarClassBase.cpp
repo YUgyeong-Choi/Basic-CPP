@@ -1,4 +1,7 @@
+//클래스 내에 선언된 변수는 기본적으로 클래스 내에 선언된 함수에서만 접근 가능
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 namespace CAR_CONST {
@@ -11,27 +14,39 @@ namespace CAR_CONST {
 	};
 }
 
-struct Car {
+class Car {
+private:
 	char gamerID[CAR_CONST::ID_LEN];
 	int fuelGauge;
 	int curSpeed;
-
+public:
+	void InitMembers(const char* ID, int fuel);
 	void ShowCarState();
 	void Accel();
 	void Break();
 };
 
+void Car::InitMembers(const char* ID, int fuel) {
+	strcpy(gamerID, ID);
+	fuelGauge = fuel;
+	curSpeed = 0;
+}
+
 void Car::ShowCarState() {
-	cout << "소유자ID: " << gamerID << endl;
+	cout << "소유자 ID: " << gamerID << endl;
 	cout << "연료량: " << fuelGauge << "%" << endl;
-	cout << "현재속도: " << curSpeed << "km/s" << endl << endl;
+	cout << "현재 속도: " << curSpeed << "km/s" << endl << endl;
 }
 
 void Car::Accel() {
-	if (fuelGauge <= 0) return;
-	else fuelGauge -= CAR_CONST::FUEL_STEP; 
+	if (fuelGauge <= 0) {
+		return;
+	}
+	else {
+		fuelGauge -= CAR_CONST::FUEL_STEP;
+	}
 
-	if ((curSpeed + CAR_CONST::ACC_STEP) >= CAR_CONST::MAX_SPD) {
+	if (curSpeed + CAR_CONST::ACC_STEP >= CAR_CONST::MAX_SPD) {
 		curSpeed = CAR_CONST::MAX_SPD;
 		return;
 	}
@@ -43,11 +58,15 @@ void Car::Break() {
 		curSpeed = 0;
 		return;
 	}
+
 	curSpeed -= CAR_CONST::BRK_STEP;
 }
 
 int main() {
-	Car run99 = { "run99", 100, 0 };
+	Car run99;
+	run99.InitMembers("run99", 100);
+	run99.Accel();
+	run99.Accel();
 	run99.Accel();
 	run99.ShowCarState();
 	run99.Break();
