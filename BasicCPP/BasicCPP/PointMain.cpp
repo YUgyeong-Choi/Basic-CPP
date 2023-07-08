@@ -3,9 +3,7 @@
 using namespace std;
 
 int main() {
-	Point p;
-
-	p.InitMembers(3, 4); // 1 이상이면 가능
+	Point p(3,4); // 1 이상이면 가능
 
 	cout << "X 좌표: " << p.GetX() << endl; 
 	cout << "Y 좌표: " << p.GetY() << endl;
