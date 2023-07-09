@@ -19,6 +19,7 @@ public:
 int main() {
 	SimpleClass sc1(); //함수의 원형 선언
 	SimpleClass mysc = sc1();
+
 	mysc.ShowData();
 	return 0;
 }
