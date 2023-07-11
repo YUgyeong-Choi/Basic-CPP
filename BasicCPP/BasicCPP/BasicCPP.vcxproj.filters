@@ -34,6 +34,12 @@
     <Filter Include="헤더 파일\Chapter4">
       <UniqueIdentifier>{e7834462-2371-49ad-afb0-6bf2699aa27c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter5">
+      <UniqueIdentifier>{5b172fa8-4728-40c5-80d1-3d46b578fce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter6">
+      <UniqueIdentifier>{35e03991-0da0-4f9b-b9cd-dd1665d872af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -284,6 +290,39 @@
     </ClCompile>
     <ClCompile Include="SelfRef.cpp">
       <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="ShallowCopyError.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassInit.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="pro05-1.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="PassObjCopycon.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnObjCopycon.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="IKnowTempObj.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnObjDeadTime.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstObject.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstOverloading.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFriendClass.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFriendFunction.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

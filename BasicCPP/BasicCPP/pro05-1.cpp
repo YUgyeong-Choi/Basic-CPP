@@ -41,7 +41,7 @@ public:
 	NameCard(const NameCard& copy) : position(copy.position) {
 		name = new char[strlen(copy.name) + 1];
 		company = new char[strlen(copy.company) + 1];
-		number = new char[strlen(copy.number) + 1];
+		number = new char[strlen(copy.number) + 1]; 
 		strcpy(name, copy.name);
 		strcpy(company, copy.company);
 		strcpy(number, copy.number);
