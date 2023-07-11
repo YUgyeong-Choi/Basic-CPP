@@ -16,8 +16,8 @@ Chapter 1 : 3일 ✅
 Chapter 2 : 4일 ✅, 5일 ✅  
 Chapter 3 : 6일 ✅, 7일 ✅  
 Chapter 4 : 7일 ✅, 8일 ✅   
-Chapter 5 : 9일 ✅, 10일  
-Chapter 6 : 11,12일  
+Chapter 5 : 9일 ✅, 11일 ✅  
+Chapter 6 : 11일 ✅,12일  
 Chapter 7 : 13,14일  
 Chapter 8 : 15,16일  
 Chapter 9 : 17,18일  
