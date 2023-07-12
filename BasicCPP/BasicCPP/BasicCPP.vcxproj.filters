@@ -324,6 +324,24 @@
     <ClCompile Include="MyFriendFunction.cpp">
       <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
+    <ClCompile Include="CComStatic.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="NeedGlobal.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMember.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="PublicStaticMember.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstStaticMember.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutable.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pro01-4Func.h">
