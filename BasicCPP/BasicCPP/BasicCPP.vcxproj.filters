@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\Chapter6">
       <UniqueIdentifier>{35e03991-0da0-4f9b-b9cd-dd1665d872af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter7">
+      <UniqueIdentifier>{76537168-56c0-4d26-af6f-e011492a5bd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -341,6 +344,21 @@
     </ClCompile>
     <ClCompile Include="Mutable.cpp">
       <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeManager1.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="UnivStudentInheri.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivCreOrder.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivDestOrder.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="DestModel.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
