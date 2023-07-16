@@ -20,12 +20,12 @@ Chapter 4 : 7일 ✅, 8일 ✅
 Chapter 5 : 9일 ✅, 11일 ✅  
 Chapter 6 : 11일 ✅,12일 ✅  
 Chapter 7 : 13일 ✅,14일 ✅  
-Chapter 8 : 16,17일  
-Chapter 9 : 18,19일  
-Chapter 10 : 20,21일  
-Chapter 11 : 23,24일  
-Chapter 12 : 25,26일  
-Chapter 13 : 27,28일  
-Chapter 14 : 30,31일  
-Chapter 15 : 1,2일  
+Chapter 8 : 16일 ✅,17일  
+Chapter 9 : 18일 ,19일  
+Chapter 10 : 20일 ,21일  
+Chapter 11 : 23일 ,24일  
+Chapter 12 : 25일 ,26일  
+Chapter 13 : 27일 ,28일  
+Chapter 14 : 30일 ,31일  
+Chapter 15 : 1일 ,2일  
 Chapter 16 : 3일  
