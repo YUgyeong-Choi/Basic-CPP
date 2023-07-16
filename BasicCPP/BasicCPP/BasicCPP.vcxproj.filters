@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\Chapter7">
       <UniqueIdentifier>{76537168-56c0-4d26-af6f-e011492a5bd8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter8">
+      <UniqueIdentifier>{8fd811b1-e497-4fd0-880b-7c6d1b34a149}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -383,6 +386,27 @@
     </ClCompile>
     <ClCompile Include="pro07-2-2.cpp">
       <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPointer.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeMAnager2.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeManager3.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionOverride.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionVirtualOverride.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeManager4.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="pro08-1.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
