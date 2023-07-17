@@ -408,6 +408,12 @@
     <ClCompile Include="pro08-1.cpp">
       <Filter>소스 파일\Chapter8</Filter>
     </ClCompile>
+    <ClCompile Include="VirtualDestructor.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceAttribute.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pro01-4Func.h">
