@@ -20,12 +20,12 @@ Chapter 4 : 7일 ✅, 8일 ✅
 Chapter 5 : 9일 ✅, 11일 ✅  
 Chapter 6 : 11일 ✅,12일 ✅  
 Chapter 7 : 13일 ✅,14일 ✅  
-Chapter 8 : 16일 ✅,17일 ✅  
-Chapter 9 : 18일 ,19일  
-Chapter 10 : 20일 ,21일  
-Chapter 11 : 23일 ,24일  
-Chapter 12 : 25일 ,26일  
-Chapter 13 : 27일 ,28일  
-Chapter 14 : 30일 ,31일  
-Chapter 15 : 1일 ,2일  
-Chapter 16 : 3일  
+Chapter 8 : 16일 ✅,17일 ✅ - 8월에 추가 복습 필요  
+Chapter 9 : 18일 ✅ - 함수 포인터 공부 필요  
+Chapter 10 : 19일 ,20일  
+Chapter 11 : 21일 ,23일  
+Chapter 12 : 24일 ,25일  
+Chapter 13 : 26일 ,27일  
+Chapter 14 : 28일 ,30일  
+Chapter 15 : 31일 ,1일  
+Chapter 16 : 1일  
