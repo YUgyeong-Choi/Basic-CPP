@@ -459,10 +459,7 @@
     <ClCompile Include="OneOpndOverloading.cpp">
       <Filter>소스 파일\Chapter10</Filter>
     </ClCompile>
-    <ClCompile Include="pro10-2-1.cpp">
-      <Filter>소스 파일\Chapter10</Filter>
-    </ClCompile>
-    <ClCompile Include="pro10-2-2.cpp">
+    <ClCompile Include="pro10-2-12.cpp">
       <Filter>소스 파일\Chapter10</Filter>
     </ClCompile>
     <ClCompile Include="PostOpndOverloading.cpp">
