@@ -21,7 +21,7 @@ Chapter 5 : 9일 ✅, 11일 ✅
 Chapter 6 : 11일 ✅,12일 ✅  
 Chapter 7 : 13일 ✅,14일 ✅  
 Chapter 8 : 16일 ✅,17일 ✅ - 8월에 추가 복습 필요  
-Chapter 9 : 18일 ✅ - 함수 포인터 공부 필요 ✅ 
+Chapter 9 : 18일 ✅ - 함수 포인터 공부 필요 ✅   
 Chapter 10 : 20일✅,22일 ✅   
 Chapter 11 : 24일 ,25일  
 Chapter 12 : 27일 ,28일  
