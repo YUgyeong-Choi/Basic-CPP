@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\Chapter10">
       <UniqueIdentifier>{91008932-e28e-4255-8d92-3b9a292bef0a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter11">
+      <UniqueIdentifier>{e35b31f5-97fb-47eb-be60-00a86a452f25}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -482,6 +485,21 @@
     </ClCompile>
     <ClCompile Include="pro10-3.cpp">
       <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstOperationOverloading.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignShallowCopyError.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="InheritAssignOperation.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="pro11-1-1.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="pro11-1-2.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
