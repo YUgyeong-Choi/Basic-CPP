@@ -501,6 +501,24 @@
     <ClCompile Include="pro11-1-2.cpp">
       <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
+    <ClCompile Include="ImproveInit.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayClass.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="StableConstArrayProb.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="StableConstArraySolu.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="StablePointObjArray.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="StablePointPtrArray.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pro01-4Func.h">
