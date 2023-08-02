@@ -519,6 +519,12 @@
     <ClCompile Include="StablePointPtrArray.cpp">
       <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
+    <ClCompile Include="pro11-2-1.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="pro11-2-2.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pro01-4Func.h">
