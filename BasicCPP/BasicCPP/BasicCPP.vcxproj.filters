@@ -525,6 +525,30 @@
     <ClCompile Include="pro11-2-2.cpp">
       <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
+    <ClCompile Include="NewDeleteOverloading.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayNewDeleteOverloading.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="PinterOperatorOverloading.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPointer.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="Functor.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="SortFunctor.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvToObject.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvToPrimitive.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pro01-4Func.h">
