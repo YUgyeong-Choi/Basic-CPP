@@ -39,5 +39,23 @@ int main() {
 	double dNumber = 123.4567;
 	cout << dNumber << endl;
 
+	/*
+	사칙연산자 : +, -, *, /, % 
+	관계연산자 : >, >=, <, <=, ==, !=
+	논리연산자 : AND(&&), OR(||), NOT(!)
+	*/
+
+	cout << "10 < 20 = " << (10 < 20) << endl;
+	cout << "10 <= 20 = " << (10 <= 20) << endl;
+	cout << "10 > 20 = " << (10 > 20) << endl;
+	cout << "10 >= 20 = " << (10 >= 20) << endl;
+	cout << "10 == 20 = " << (10 == 20) << endl;
+	cout << "10 != 20 = " << (10 != 20) << endl;
+
+	cout << "숫자를 입력하세요 : ";
+	cin >> Number;
+
+	cout << "10 ~ 20 = " << (10 <= Number && Number <= 20) << endl;
+
 	return 0;
 }
