@@ -1,103 +1,75 @@
-// #include : 헤더파일을 여기에 포함시키는 기능, 전처리기
 #include <iostream>
 
 using namespace std;
 
-//실행 과정 : 컴파일 -> 빌드 -> 실행
-//Ctrl + Shift + B 를 이용해서 컴파일 및 빌드 가능
-
 int main() {
-	//C++의 표준 기능의 대부분은 std라는 namespace 안에 존재하고 있다.
-	//이름이 겹치는 것을 방지해주기 위해
-	std::cout << "Test Output" << std::endl;
+	//상수 : 변하지 않는 수, 값을 한 번 지정해놓으면 바꿀 수 없다.
+	//상수는 선언과 동시에 값을 지정해 두어야 한다
+	//16진수는 한자리가 4bit => 8자리 32bit
+	const int iAttack = 0x00000001;		//	1
+	const int iArmor = 0x00000002;		//	10
+	const int iHP = 0x00000004;			//	100
+	const int iMP = 0x00000008;			//	1000
+	const int iCritical = 0x00000010;	//	10000
 
-	cout << "std namespace 사용" << endl;
+	// 001 | 100 = 00101 | 10000 = 10101
+	//int는 32비트니까 000000000000000000000000010101 이런 모양
+	int iBuf = iAttack | iHP | iCritical;
 
-	/*
-	변수 : 변하는 수
-	변수는 주기억장체-메모리-램에 변수의 공간이 만들어 짐
-	char, bool, short, int, float, double
-	종류, 용량, 데이터, 표현 범위, unsigned
-	*/
+	// 연산자 축약헝 : 연산자를 줄여서 사용할 수 있다
+	// 아래를 풀어서 쓰면 iBuf = iBuf ^ iHP; 스위치 기능
 
-	int Number = 10;
-	Number = 20;
-	cout << Number << endl;
 
-	bool bTest = true;
-	bTest = false;
-	cout << bTest << endl;
+	// 10101 & 00001 = 00001
+	cout << "Attack : " << (iBuf & iAttack) << endl;
 
-	//영문이나 숫자는 1byte를 차지한다.
-	//하지만 한글, 한문등의 문자는 2byte를 차지하기 때문에 char에 저장하기 힘들다
-	char cTest = 't';
-	cout << cTest << endl;
-
-	float fNumber = 3.14;
-	cout << fNumber << endl;
-
-	double dNumber = 123.4567;
-	cout << dNumber << endl;
+	// 10101 & 00010 = 00000
+	cout << "Armor : " << (iBuf & iArmor) << endl;
+	cout << "iHP : " << (iBuf & iHP) << endl; // 10101 & 00100 = 00100
+	cout << "iMP : " << (iBuf & iMP) << endl;
+	cout << "iCritical : " << (iBuf & iCritical) << endl; //10000
 
 	/*
-	사칙연산자 : +, -, *, /, % 
-	관계연산자 : >, >=, <, <=, ==, !=
-	논리연산자 : AND(&&), OR(||), NOT(!)
+	쉬프트 연산자  : <<, >>
+	20 << 2 = 80
+	20 << 3 = 160
+	20 << 4 = 320 ?
+	1010000
+	10100000 128 + 32 = 160
+
+	20 >> 2 = 5
+	101
+	20 >> 3 = 2
+	10
 	*/
 
-	//true는 1, false는 0
-	cout << "10 < 20 = " << (10 < 20) << endl;
-	cout << "10 <= 20 = " << (10 <= 20) << endl;
-	cout << "10 > 20 = " << (10 > 20) << endl;
-	cout << "10 >= 20 = " << (10 >= 20) << endl;
-	cout << "10 == 20 = " << (10 == 20) << endl;
-	cout << "10 != 20 = " << (10 != 20) << endl;
+	int iHigh = 187;
+	int iLow = 13560;
 
-	cout << "숫자를 입력하세요 : ";
-	cin >> Number;
+	int iNumber = iHigh;
 
-	cout << "10 ~ 20 = " << (10 <= Number && Number <= 20) << endl;
+	// iNumber에는 187이 들어가 있다. 이 값을 16비트 이동시키면
+	//상위 16비트에 값이 들어가게 된다
+	iNumber <<= 16;
 
-	/*
-	진수 : 2진수, 8진수, 10진수, 16진수
-	2진수 : 0 - 1
-	8진수 : 0 - 7
-	10진수 : 0 - 9
-	16진수 : 0 - 9, 10 - 15 : a - f
+	// 하위 16비트를 채운다
+	iNumber |= iLow;
 
-	87을 2진수, 16진수로 변환해보자
-	87 / 2 = 43 - 1
-	43 / 2 = 21 - 1
-	21 / 2 = 10 - 1
-	10 / 2 = 5 -- 0
-	5 / 2 = 2 --- 1
-	2 / 2 = 1 --- 0
-	가장 마지막에 나온 몫부터 역순으로 나머지 값들을 읽는다
-	1010111
+	cout << "High : " << (iNumber >> 16) << endl;
+	cout << "Low : " << (iNumber & 0x0000ffff) << endl;
 
-	10진수를 16진수로 변환하는 것 보다 2진수를 16진수로 하는 것이 더 쉽다
-	1010111을 오른쪽으로부터 4자리씩 끊어서 계산한다
-	
-	0101 0111
-	8421 8421
+	//증감연산자 : ++, --
+	iNumber = 10;
 
-	16진수 57
+	//전치
+	++iNumber;
 
-	비트단위 논리 연산자 : 2진수 단위의 연산을 한다. 
-	종류 : AND(&), OR(|), NOT(~), XOR(^)
+	//후치
+	iNumber++;
 
-	87 & 53 = 21
-	87 : 1010111
-	53 : 110101
-
-	  1010111
-	 &0110101
-	  0010101
-	 
-	 16+4+1 = 21
-	*/
-
-	cout << "87 & 53 = " << (87 & 53) << endl;
+	cout << ++iNumber << endl;
+	cout << iNumber++ << endl;
+	cout << iNumber << endl;
 
 	return 0;
 }
